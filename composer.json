@@ -2,7 +2,7 @@
 	"name": "moonwalkingbits/wordpress-templating",
 	"description": "A general purpose templating abstraction.",
 	"type": "library",
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"authors": [
 		{
 			"name": "Martin Pettersson",
@@ -10,6 +10,9 @@
 		}
 	],
 	"minimum-stability": "stable",
+	"suggest": {
+		"moonwalkingbits/wordpress-templating-php": "A PHP-template implementation."
+	},
 	"scripts": {
 		"lint": "phpcs -p --standard=WordPress src/",
 		"analyze": [
