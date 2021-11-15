@@ -26,6 +26,7 @@
 		]
 	},
 	"require": {
+		"php": ">=7.4",
 		"moonwalkingbits/wordpress-autoloader-composer-plugin": "^0.2.2"
 	},
 	"require-dev": {
