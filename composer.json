@@ -16,7 +16,7 @@
 	"scripts": {
 		"lint": "phpcs -p --standard=WordPress src/",
 		"analyze": [
-			"phpmd --suffixes php --exclude vendor/ ./ ansi phpmd.xml",
+			"phpmd --suffixes php src/ ansi phpmd.xml",
 			"phan --output-mode text --no-progress-bar --color --allow-polyfill-parser"
 		]
 	},
