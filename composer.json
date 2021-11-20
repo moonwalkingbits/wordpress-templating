@@ -11,7 +11,8 @@
 	],
 	"minimum-stability": "stable",
 	"suggest": {
-		"moonwalkingbits/wordpress-templating-php": "A PHP-template implementation."
+		"moonwalkingbits/wordpress-templating-php": "A PHP-template implementation.",
+		"moonwalkingbits/wordpress-templating-twig": "A Twig implementation."
 	},
 	"scripts": {
 		"lint": "phpcs -p --standard=WordPress src/",
