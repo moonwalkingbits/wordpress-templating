@@ -15,7 +15,7 @@ namespace Moonwalking_Bits\Templating;
  *
  * @since 0.1.0
  */
-interface Engine_Interface {
+interface Template_Engine_Interface {
 
 	/**
 	 * Adds the given list of directories to be searched for templates.
