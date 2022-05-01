@@ -35,5 +35,10 @@
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
 		"phpmd/phpmd": "^2.10",
 		"phan/phan": "^5.3"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }

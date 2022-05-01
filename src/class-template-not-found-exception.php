@@ -10,14 +10,14 @@
 
 namespace Moonwalking_Bits\Templating;
 
-use Exception;
+use RuntimeException;
 
 /**
  * An exception thrown when a template engine cannot find a given template file.
  *
  * @since 0.1.0
  */
-class Template_Not_Found_Exception extends Exception {
+class Template_Not_Found_Exception extends RuntimeException {
 
 	/**
 	 * Creates a new exception instance.
